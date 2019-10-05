@@ -44,9 +44,9 @@ public class DatabaseServerPreparingInitializer extends JFrame {
 		final InformationFrame dialog = new InformationFrame();
 		final String sqlFilePath = "src/com/coder/hms/connection/hotel_management_system.sql";
 		final String DB_DRIVER = "com.mysql.cj.jdbc.Driver";
-		final String DB_CONNECTION = "jdbc:mysql://localhost:3306/";
-		String DB_USER = JOptionPane.showInputDialog(this, "Enter your database user name :", "Coder HMS [Input]", JOptionPane.QUESTION_MESSAGE);
-		String DB_PASSWORD = JOptionPane.showInputDialog(this, "Enter your database password :", "Coder HMS [Input]", JOptionPane.QUESTION_MESSAGE);
+		final String DB_CONNECTION = "jdbc:mysql://172.16.51.41:3306/";
+		String DB_USER = JOptionPane.showInputDialog(this, "soisuser", "Coder HMS [Input]", JOptionPane.QUESTION_MESSAGE);
+		String DB_PASSWORD = JOptionPane.showInputDialog(this, "Sois@123", "Coder HMS [Input]", JOptionPane.QUESTION_MESSAGE);
 		
 			try {
 				
